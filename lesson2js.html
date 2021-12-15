@@ -11,6 +11,27 @@
 
 
 <script>
+//     - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
+//     (в першу, другу, третю или четверту частину години).
+//
+//
+//     - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
+//
+//     - У нас є змінна test, якщо  не дорівнює true, виведіть 'Вірно', інакше виведіть 'Неправильно'.
+//         Перевірте роботу скрипта при test, що дорівнює true, false. Напишіть два варіанти скрипта - з коротким записом(тернаркою)
+//
+//
+//     - Якщо змінна a не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
+//
+//     - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день.
+//
+//     - Потрібно визначити Високосний рік чи ні. Високосні роки діляться націло на 4.
+//
+//     - Використовуючи конструкцію if..else, напишіть код, який запитуватиме: „Яка «офіційна» назва JavaScript?“
+// Якщо користувач вводить «ECMAScript», то показати: «Правильно!», інакше – відобразити: «Не знаєте? ECMAScript!
+
+
+
     // let age = +prompt('enter you age');
     //
     // if (age > 18) {
@@ -26,24 +47,100 @@
 
     // ---------------------------------
 
-    let time = +prompt('enter your times');
+    // let time = +prompt('enter your times');
+    //
+    // if (time > 59) {
+    //     document.write('<h1>quarter of an hour</h1>')
+    // }
+    // else if (time > 0 && time <= 15) {
+    //     document.write('<h1>first part of the hour</h1>')
+    // }
+    // else if ( time >15 && time <=30){
+    //     document.write('<h1>second part of the hour</h1>')
+    // }
+    // else if ( time >30 && time <=45){
+    //     document.write('<h1>third of an hour</h1>')
+    // }
+    // else if ( time >45 && time <=59){
+    //     document.write('<h1>quarter of an hour</h1>')
+    // }
+    //
+    //
+    //
+    // let day = +prompt('enter your day');
+    //
+    // if (day > 31) {
+    //     document.write('<h1>decade of the monthr</h1>')
+    // }
+    //     else if (day > 1 && day <= 10) {
+    //     document.write('<h1>first decade of the monthr</h1>')
+    // }
+    // else if ( day >10 && day <=20){
+    //     document.write('<h1>second  decade of the month</h1>')
+    // }
+    // else if ( day >20 && day <=30){
+    //     document.write('<h1>third decade of the month</h1>')
+    // }
+    // else if ( day >30 && day <=31){
+    //     document.write('<h1>quarter decade of the month</h1>')
+    // }
 
-    if (time > 59) {
-        document.write('<h1>quarter of an hour</h1>')
-    }
-    else if (time > 0 && time <= 15) {
-        document.write('<h1>first part of the hour</h1>')
-    }
-    else if ( time >15 && time <=30){
-        document.write('<h1>second part of the hour</h1>')
-    }
-    else if ( time >30 && time <=45){
-        document.write('<h1>third of an hour</h1>')
-    }
-    else if ( time >45 && time <=59){
-        document.write('<h1>quarter of an hour</h1>')
-    }
+//
+// let test= 'true';
+//     switch (test){
+//         case 'true':
+//         console.log('nepravylno');
+//         break;
+//
+//         case 'false':
+//             console.log('virno');
+//             break;
+//
+//
+//     }
+// let query = '';
+// let num =100;
+// if( num===0){
+//     query='virno'
+// }else {
+//     query='nevirno'
+// }
+// console.log(query)
 
+
+// let numberday = '1';
+// switch (numberday){
+//     case '1':
+//         console.log('monday:poihati v mreo');
+//         break;
+//     case '2':
+//         console.log('zabraty groshi v banki');
+//         break;
+//     case '3':
+//         console.log('kupyti maslo v motor');
+//         break;
+//
+// }
+
+// let year = 2100;
+//
+// let date = new Date(year, 2, 0);
+// if (date.getDate() == 29) {
+//     console.log('visokosny');
+// } else {
+//     console.log('nevysokosny');
+// }
+
+
+// let namejs= prompt('oficiyna nazva ECMAscript?');
+//
+// if (namejs=='ECMAscript'){
+//     console.log('virno')
+// }
+// else if (namejs!=='ECMAscript')
+// {
+//     console.log('ne znaeh?ECMAscript')
+// }
 
 </script>
 
